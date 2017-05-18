@@ -1,0 +1,2 @@
+# HelpingHands
+This app is for an organization called Helping Hands.They have a website which have the features of posting notification,taking the user data and stroing them mysql database and retreiving the information from the database.These all features are developed in this app.By using this app we can retrieve the notifications,If anybody need help they can fill the form using this app and they can know the money collection details yearwise using this app.
