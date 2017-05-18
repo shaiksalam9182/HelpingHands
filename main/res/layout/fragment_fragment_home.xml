@@ -1,0 +1,103 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".fragment_home">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="10dp">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+            <ViewFlipper
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:autoStart="true"
+                android:layout_marginTop="60dp"
+                android:flipInterval="5000">
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/j2"
+                    />
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/j3"
+                    />
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/a1"
+                    />
+
+            </ViewFlipper>
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textSize="15dip"
+
+                android:text="\n                  The students of RGUKT have taken much responsibility on their shoulders for a noble cause. Their budding thoughts lead them to establish a foundation Helping Hands for the welfare of the poor students in AP IIIT'S as well as the society. Tremendous efforts of the innocent dazzling mindsuplifted their spirits and proved themselves that they are the towering inspiration for the forthcoming generations through their noble contribution to the people who are at the edge of the poverty line.\n\n"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textSize="15dip"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:text=" 27-Events\n 2046-People got help\n 229-volunteers\n\n\n"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textSize="15dip"
+
+                android:text="                   Every journey starts with a single step. They recognized the value of the first step and took the first step of initiation to show the strength of a rupee. Its main motive is to empower the rural poor and to construct a new world to let out their grievances from their lives. Of course they are the tiny tots of the society but their blossoming thoughts ignite the poor and disabled hearts.
+        "
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="It mainly focuses on :\n
+Helping the poor students,\nfor their:\n
+--> Daily needs \n
+--> Travelling expenses \n
+--> Distribution of tricycles for physically challenged students\n
+--> Meeting the expenses of washing clothes for the disabled and for the medical expenses.\n\n"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textSize="15dip"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+    </LinearLayout>
+
+
+</FrameLayout>
